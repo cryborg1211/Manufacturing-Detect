@@ -16,7 +16,7 @@ The goal of this project is to predict whether a machine will fail based on vari
 
 -   `main_code.ipynb`: The main Jupyter Notebook containing the entire pipeline (Data Loading, Preprocessing, Modeling, Evaluation, and Streaming).
 -   `machine failure.csv`: The dataset used for training and testing. It contains sensor readings like temperature, speed, torque, and tool wear.
--   `submission.csv`: Output file (if applicable).
+-   `submission.csv`: output sample file from dataset (I don't use in this project)
 
 ## 📊 Dataset
 
@@ -65,6 +65,3 @@ The dataset (`machine failure.csv`) includes the following key features:
 
 The model is evaluated using the **Area Under ROC (AUC)** metric to ensure robust classification performance on the unbalanced dataset.
 
-## 🤝 Contributing
-
-Feel free to fork this repository and submit pull requests for improvements or additional features!
